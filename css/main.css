@@ -1,0 +1,132 @@
+body{
+    background-color: #404041;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --colorcase:     #e9e9d1;
+    --bg-display:    #878d70;
+    --colorbutton01: #43619c;
+    --colorbutton02: #8a1f06;
+    --colorbutton03: #343841;
+    --colorTextDisplay: #43475b;
+    --display-title: #43475b;
+    --display-description: #5b8cf5;
+    --shadow01: 5px 14px 6px 3px rgba(0,0,0,0.25), -8px -2px 6px 3px rgba(159,154,140,0.25); 
+    --shadow02:5px 14px 6px 3px rgba(0,0,0,0.25), -8px -2px 6px 3px rgba(159,154,140,0.25);
+
+}
+
+.container{
+    width: 100%;
+}
+.container .sharp-case{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sharp-case{
+    background-color: var(--colorcase);
+    width: 250px;
+    height: 60vh;
+    margin: auto;
+    -webkit-box-shadow: 11px 17px 24px -3px rgba(159,154,140,0.6); 
+box-shadow: 11px 17px 24px -3px rgba(159,154,140,0.6);
+}
+.display-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    color:#e9e9d1;
+    border: 1px solid var(--bg-display);
+    padding: 0px 3px 8px;
+    
+    
+   
+}
+hr{
+    border: 1px solid var(--bg-display);
+}
+.display-title{
+    background-color: var(--display-title);
+    color: var(#fff);
+}
+.display-title h2{
+    padding: 0 8px;
+    background-color: var(--display-title);
+    color:#fff;
+    
+}
+.display-description{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--display-description);
+    align-items: center;
+    padding: 0 8px;
+}
+.display-description h3{
+    
+    font-size: 0.6rem;
+}
+.display-description span{
+    font-size: 0.6rem;
+    background-color: var(--display-description);
+}
+input.sharp-display {
+    background-color: var(--bg-display);
+
+}
+.display-model{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.button-color01,
+.button-color02,
+.button-color03{
+    padding: 8px 10px;
+    border: none;
+}
+
+.button-color01{
+    -webkit-box-shadow: var(--shadow01);
+    box-shadow: var(--shadow02);
+    background-color: var(--colorbutton01);
+
+}
+
+.button-color02{
+ background-color: var(--colorbutton02);
+ border: none;
+}
+
+.button-color03{
+    background-color: #343841;
+    border: none;
+}
+.bottom-buttons{
+    
+    padding: 2px;
+    
+}
+.bottom-buttons button{
+    color: #fff;
+    background-color: var(--colorbutton03);
+    padding: 6px 8px;
+    font-weight: 700;
+    border: none;
+}  
+
+.buttom-grid{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;
+}
