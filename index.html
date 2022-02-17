@@ -8,11 +8,18 @@
     <title>Calculator</title>
 </head>
 <body>
+    <div class="header">
+        <h1> SHARP CALCULATOR</h1>
+    <div class="header-hr">
+        <hr><hr></hr>
+    </div>    
+    </div>
     <div class="container">
-        <h1> Sharp Calculator</h1>
+        
         <div class="sharp-case">
+            <div class="case-shadow-top"></div>
             
-             <div class="display-container">
+            <div class="display-container">
                 <div class="display-lines">
                     <hr>
                     <hr>
@@ -29,40 +36,48 @@
 
                         <span>AUTOPOWER OFF</span>
                     </div>
-                
-                <input type="text" class="sharp-display">
 
+                <div class="sharp-display">
+                    <div class="display-border-top"></div>
+                    <div class="display-main">
+                        <div class="border-input-left"></div>
+                        <div class="border-input">
+                            <input type="text" placeholder="4+5=9 "class="sharp-display-input">
+                        </div>
+                        <div class="border-input-right"></div>
+                    </div>
+                    <div class="display-border-bottom"></div>
+                </div>
                 <div class=" display-buttons">
                     
-                        <button class="button-color01">CM</button>
-                        <button class="button-color01">RM</button>
-                        <button class="button-color01">M-</button>
-                        <button class="button-color01">M+</button>
+                        <button >CM</button>
+                        <button >RM</button>
+                        <button >M-</button>
+                        <button >M+</button>
                         <button class="button-color02">on/c</button>
                 </div>
             </div>
 
             <div class="bottom-buttons">
                 <div class=" buttom-grid">
-                    <button class="button-color03">7</button>
-                    <button class="button-color03">8</button>
-                    <button class="button-color03">9</button>
-                    <button class="button-color03">/</button>
-                    <button class="button-color0">OFF</button>
+                    <button >7</button>
+                    <button >8</button>
+                    <button >9</button>
+                    <button >÷</button>
+                    <button >OFF</button>
                 
-                
-                    <button class="button-color03">4</button>
+                    <button>4</button>
                     <button>5</button>
                     <button>6</button>
                     <button>x</button>
-                    <button>ce</button>
+                    <button>CE</button>
                 
                 
                     <button>1</button>
                     <button>2</button>
                     <button>3</button>
                     <button>-</button>
-                    <button>?</button>
+                    <button>√</button>
                 
                 
                     <button>0</button>
@@ -72,7 +87,7 @@
                     <button>=</button>
                 </div>
             </div>
-    
+            <div class="case-shadow-bottom"></div>
         </div>
     </div>
     <script src="./index.js"></script>
