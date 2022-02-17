@@ -11,9 +11,9 @@ body{
 :root{
     --colorcase:     #e9e9d1;
     --bg-display:    #878d70;
-    --colorbutton01: #43619c;
-    --colorbutton02: #8a1f06;
-    --colorbutton03: #343841;
+    --color-btn-blue: #43619c;
+    --color-btn-red: #8a1f06;
+    --color-btn-black: #343841;
     --colorTextDisplay: #43475b;
     --display-title: #43475b;
     --display-description: #5b8cf5;
@@ -37,6 +37,34 @@ body{
 .header-hr hr{
     border: 1px solid yellow;
 }
+
+.caracteristics{
+    position: relative;
+    z-index: 1;
+    background-color: #8a1f06;
+    clip-path: polygon(100% 0%, 86% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    width: 340px;
+    padding: 2px 30px;
+    color: #fff;
+    margin-bottom: 30px;
+
+}
+.caracteristics h2{
+    font-weight: 400;
+}
+.span-promo{
+    
+    background-color: #5b8cf5;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+
+    width: 150px;
+    height: 150px;
+    clip-path: polygon(50% 0, 60% 15%, 75% 10%, 74% 25%, 90% 25%, 81% 41%, 100% 50%, 83% 58%, 90% 75%, 75% 75%, 75% 90%, 60% 84%, 50% 100%, 40% 85%, 25% 90%, 26% 73%, 7% 73%, 16% 58%, 0 50%, 16% 40%, 10% 25%, 22% 24%, 25% 10%, 40% 15%);
+}
+
+
 .container{
     margin: 60px auto;
     display: flex;
@@ -58,7 +86,7 @@ body{
     background-color: var(--colorcase);
     border-radius: 6px;
     width: 250px;
-    height: 460px;
+    height: 480px;
     margin: auto;
     -webkit-box-shadow: 11px 17px 24px -3px rgba(159,154,140,0.6); 
 box-shadow: 11px 17px 24px -3px rgba(159,154,140,0.6);
@@ -98,9 +126,17 @@ border-radius: 0px 0px 8px 8px;
     padding: 0px 3px 8px;
     grid-template-columns: 1fr;
     align-items: center;
-   grid-template-rows: 80px 10px 50px 70px 50px;
+   grid-template-rows: 70px 33px 12px 140px;
 }
-hr{
+
+.display-lines{
+    position: relative;
+}
+.display-lines .lines{
+    width: 100%;
+    position: absolute;
+}
+.lines hr{
     border: 1px solid var(--bg-display);
 }
 .display-title{
@@ -120,7 +156,6 @@ hr{
     background-color: var(--display-description);
     align-items: center;
     padding: 0 12px;
-    
 }
 .display-description h3{
     
@@ -145,24 +180,31 @@ background: linear-gradient(0deg, rgba(179,179,179,1) 0%, rgba(170,170,170,1) 4%
     
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 40px 40px 40px 40px 04p;
+    grid-template-rows: 22px 36px 23px;
    
 }
 
 
-input.sharp-display-input {
+ .display-text-screen{
     border-radius: 8px;
-    height: 30px;
+    margin: 10px 15px 20px;
+    padding: 5px 10px;
     background-color: var(--bg-display);
 
 }
-.display-main{
+.sharp-display-output{
+    background-color: #878d70;
+    border: 3px solid #404041;
+    display: block;
+    overflow: hidden;
+  text-align: right;
+  text-overflow: ellipsis;
+}
+.sharp-display-main{
     display: grid;
     grid-template-columns: 10% 80% 10%;
 }
-.sharp-display .border-input{
-    background-color: #222325;
-}
+
 .border-input-left{
         color: black;
         background: rgb(107,102,102);
@@ -181,6 +223,12 @@ background: linear-gradient(180deg, rgba(107,102,102,1) 0%, rgba(205,205,179,1) 
     width: 50%;
     
 }
+
+
+/*Buttom*/
+.color-btn-red{
+    background-color: var(--color-btn-red)!important;
+}
 .display-buttons{
     display: grid;
     grid-template-columns: repeat(5, 35px);
@@ -194,27 +242,13 @@ background: linear-gradient(180deg, rgba(107,102,102,1) 0%, rgba(205,205,179,1) 
     color: #fff;
     --webkit-box-shadow: var(--web-shadow); 
     box-shadow: var(--box-button-shadow);
-    background: var(--colorbutton01);
+    background: var(--color-btn-blue);
     border: none;
     
     
 }
-/******Buttoms********/
-.button-color01,
-.button-color02,
-.button-color03{
-    
-    border: none;
-}
 
 
-
-button.button-color02{
-    --webkit-box-shadow: var(--web-shadow); 
-    box-shadow: var(--box-button-shadow);
-    background: var(--colorbutton02)!important;
-    border: none;
-}
 
 
 /***bottom***/
@@ -229,7 +263,7 @@ button.button-color02{
     color: #fff;
     --webkit-box-shadow: var(--web-shadow); 
     box-shadow: var(--box-button-shadow);
-    background: var(--colorbutton03);
+    background: var(--color-btn-black);
     padding: 6px 8px;
     font-weight: 700;
     border: none;
