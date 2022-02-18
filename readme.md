@@ -5,14 +5,17 @@ Site: Eudeslima.com
 
 
 
-Com esse projeto, fiz uma calculadora construida sem imagens, utilizei somente  CSS puro e dei vida ao projeto com javascript.
+With this project, I made a calculator built without images, I used only pure CSS and gave life to the project with javascript.
 
-## Introducao
+## Introduction
+
+In this project, the following characteristics were used:
 
 ### Calculator Sharp Elsi Mate El - 230
 
-Essa é uma calculador de 1982, Calculadora aritmética de la empresa japonesa Sharp, con precisión de 8 dígitos, con lógica algebraica y 6 funciones. Dispone de una pequeña pantalla LCD de 8 dígitos y un teclado de 25 teclas en tres colores: de color negro para los números y las funciones (suma, resta, multiplicación, división, raíz cuadrada y cálculo de porcentajes), las azules para la memoria y la roja para encendido y borrado (el apagado es automático). Incorpora un circuito integrado especifico de Sharp, el LI3324AM, del que no se tienen datos de sus características. 
+This is a calculator from 1982, Arithmetic calculator from the Japanese company Sharp, with 8-digit precision, with algebraic logic and 6 functions. It has a small 8-digit LCD screen and a 25-key keyboard in three colors: black for numbers and functions (addition, subtraction, multiplication, division, square root and percentage calculation), blue for memory and the red one for power on and deletion (power off is automatic).
 
 
-## Consideracoes 
-"Esta é uma pequena homenagem que faco ao meu querido pai, Eudes lima("1949-2021").
+## Considerations
+
+"This is a small tribute I pay to my dear father, Eudes Lima("1949-2021").
