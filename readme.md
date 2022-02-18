@@ -7,6 +7,8 @@ Site: Eudeslima.com
 
 With this project, I made a calculator built without images, I used only pure CSS and gave life to the project with javascript.
 
+[Sharp](./media/sharp.png)
+
 ## Introduction
 
 In this project, the following characteristics were used:
