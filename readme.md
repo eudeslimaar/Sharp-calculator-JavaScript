@@ -1,7 +1,7 @@
 # Calculator - Javascript
-Autor: Eudes Lima.
-Email: developer@eudeslima.com
-Site: Eudeslima.com
+-Autor: Eudes Lima
+-Email: developer@eudeslima.com
+-Site: Eudeslima.com
 
 
 

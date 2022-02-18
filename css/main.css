@@ -39,6 +39,7 @@ body{
 }
 
 .caracteristics{
+    display: none;
     position: relative;
     z-index: 1;
     background-color: #8a1f06;
